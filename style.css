@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+body {
+    background-image: url("ghosts.png"); /* Path to your pattern image */
+    background-repeat: repeat; /* Repeat the image to cover the entire background */
+    opacity: 1; /* Fully opaque background and content */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    font-weight: 600; /* Semi-bold text */
+    font-family: "Source Code Pro", monospace; /* Font family */
+    cursor: url('custom-cursor.png'), auto; /* Custom cursor with fallback */
+}
+
+
+
+.header-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Makes the container full height of the viewport */
+}
+
+h1 {
+  font-size: 36px;
+  color: rgba(110, 110, 110, 1);
+}
+
+.banner {
+  width: 100%; /* Make the banner span the entire width of the viewport */
+  overflow: hidden; /* Ensures that any overflowing content is hidden */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.banner img {
+  height: 128px; /* Set the height of the image to 36 pixels */
+  width: 600px; /* Adjust the width automatically to maintain aspect ratio */
+  display: block; /* Removes any extra space below the image */
+  object-fit: fill;
+}
+
+.text-box {
+  display: inline-block; /* Makes elements appear side by side */
+  background-color: rgb(256,256,256);
+  padding: 5px;
+  border: 3px solid #ccc;
+  width: 320px; /* Width of each text box */
+  margin-right: 10px; /* Optional: adds space between text boxes */
+  height: 1000px;
+  box-sizing: border-box;
+  vertical-align: top;
+  justify-content: center;
+  align-items: center; /* Centers vertically */
+   overflow: hidden; /* Ensures that any overflowing content is hidden */
+}
+
+.main-text-box {
+  display: inline-block; /* Makes elements appear side by side */
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 5px solid #ccc;
+  width: 500px; /* Width of each text box */
+  margin-right: 10px; /* Optional: adds space between text boxes */
+  height: 1000px;
+  overflow: hidden;
+  color: rgba(140, 140, 140, 1);
+  box-sizing: border-box;
+  vertical-align: top;
+  justify-content: center;
+}
+
+.directory {
+  display: inline-block; /* Makes elements appear side by side */
+  background-color: rgb(256,256,256);
+  padding: 5px;
+  border: 3px solid #ccc;
+  width: 320px; /* Width of each text box */
+  margin-right: 10px; /* Optional: adds space between text boxes */
+  height: 1000px;
+  box-sizing: border-box;
+  vertical-align: top;
+  justify-content: center;
+  align-items: center; /* Centers vertically */
+   overflow: hidden; /* Ensures that any overflowing content is hidden */
+}
+
+.submain {
+  font-size: 13px; /* Sets the font size of the text within this element */
+}
+
+.division {
+  font-size: 13px; /* Sets the font size of the text within this element */
+  padding: 10px;
+}
+
+.footer {
+ margin-top: 20px; 
+}
+
+.img {
+  image-rendering: auto;
+}
+
+.snake {
+   display: flex;
+  background-color: rgb(0,0,0);
+  border: 3px solid #ccc;
+}
+
+#restartButton {
+    display: block; /* Make the button a block element to center it */
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    font-size: 16px; /* Adjust font size if needed */
+    background-color: #4CAF50; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#restartButton:hover {
+    background-color: #45a049; /* Darker background on hover */
+}
+
+/* If you want to center it vertically and horizontally within a container */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Make sure the container takes up the full height */
+}
+
+a {
+    cursor: url('custom-pointer.png'), pointer; /* Path to your custom cursor image */
+}
